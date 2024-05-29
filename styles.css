@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+.attendance-form, .contact {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2em 0;
+    padding: 2em;
+}
+
+.attendance-form h2, .contact h2 {
+    color: #4caf50;
+}
+
+label {
+    display: block;
+    margin: 1em 0 0.5em;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 1em 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contact a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4caf50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
