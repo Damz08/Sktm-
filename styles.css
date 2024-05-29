@@ -49,3 +49,36 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* CSS untuk animasi fade-in dan fade-out */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+/* Animasi fade-in saat laman dimuat */
+.attendance-form, .contact {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Hover effect untuk animasi fade-out saat mouse diarahkan ke luar borang */
+.attendance-form:hover, .contact:hover {
+    animation: fadeOut 0.5s ease-in-out;
+}
